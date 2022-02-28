@@ -1,0 +1,70 @@
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+select, input, button{
+    margin: 0 .3125rem;
+    padding: .3125rem .625rem;
+    border-radius: .375rem;
+    border: 0;
+    
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: .125rem solid white;
+    transition: all 0.5s ease;
+}
+
+button i{
+    margin-left: .3125rem;
+}
+
+select:hover{
+    outline: .125rem solid rgb(121, 121, 121);
+}
+
+input:focus, input:hover{
+    outline: .125rem solid rgb(121, 121, 121);
+}
+
+button:hover{
+    background-color: rgb(37, 37, 37);
+    border: .125rem solid rgb(121, 121, 121);
+}
+
+h1{
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+h1 span{
+    color: rgba(248, 20, 20, 0.781);
+}
+
+.image{
+    display: flex;
+    width:250px;
+    height: 250px;
+    overflow: hidden;
+    background-color: black;
+    align-items: center;
+    margin: .625rem;
+}
+
+.image img{
+    width: 100%;
+    object-fit: cover; 
+}
+
+.container.gallery{
+    padding: 2.5rem 0;
+}
+
+
+
